@@ -13,6 +13,8 @@
 		9543666E256BF45900048377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9543666C256BF45900048377 /* Main.storyboard */; };
 		95436670256BF45900048377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9543666F256BF45900048377 /* Assets.xcassets */; };
 		95436673256BF45900048377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95436671256BF45900048377 /* LaunchScreen.storyboard */; };
+		9543667C256BF53F00048377 /* TwoLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9543667B256BF53F00048377 /* TwoLineButton.swift */; };
+		9543667F256BF55900048377 /* IconTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9543667E256BF55900048377 /* IconTextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9543666F256BF45900048377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95436672256BF45900048377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95436674256BF45900048377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9543667B256BF53F00048377 /* TwoLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLineButton.swift; sourceTree = "<group>"; };
+		9543667E256BF55900048377 /* IconTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				95436666256BF45900048377 /* AppDelegate.swift */,
 				95436668256BF45900048377 /* SceneDelegate.swift */,
+				9543667B256BF53F00048377 /* TwoLineButton.swift */,
+				9543667E256BF55900048377 /* IconTextButton.swift */,
 				9543666A256BF45900048377 /* ViewController.swift */,
 				9543666C256BF45900048377 /* Main.storyboard */,
 				9543666F256BF45900048377 /* Assets.xcassets */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9543667C256BF53F00048377 /* TwoLineButton.swift in Sources */,
 				9543666B256BF45900048377 /* ViewController.swift in Sources */,
 				95436667256BF45900048377 /* AppDelegate.swift in Sources */,
 				95436669256BF45900048377 /* SceneDelegate.swift in Sources */,
+				9543667F256BF55900048377 /* IconTextButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
